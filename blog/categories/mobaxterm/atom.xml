@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[andrelop's blog]]></title>
-  <link href="http://andrelop.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Mobaxterm | andrelop's blog]]></title>
+  <link href="http://andrelop.github.io/blog/categories/mobaxterm/atom.xml" rel="self"/>
   <link href="http://andrelop.github.io/"/>
   <updated>2014-04-18T01:15:36-03:00</updated>
   <id>http://andrelop.github.io/</id>
@@ -101,72 +101,6 @@ platform to run under this VM (git and vim are the only tools
 needed).</p>
 
 <p>Works like a charm :&ndash;)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[On Bike Tubes]]></title>
-    <link href="http://andrelop.github.io/blog/2014/04/12/on-bike-tubes/"/>
-    <updated>2014-04-12T11:11:11-03:00</updated>
-    <id>http://andrelop.github.io/blog/2014/04/12/on-bike-tubes</id>
-    <content type="html"><![CDATA[<p>It&rsquo;s been a while since I got myself a bike. At first, I thought buying the
-thing would be all I needed to motivate me to got out more often and enjoy
-nature.</p>
-
-<p>However, I couldn&rsquo;t be more wrong. It&rsquo;s been around three months since I
-bought the bike but I went out biking only two times. It&rsquo;s a speed bike so
-it&rsquo;s not easy to ride it anywhere.</p>
-
-<p>I mean, an usual bike can be used anywhere; streets, trails, roads, etc, but
-a speed one isn&rsquo;t much fun to ride in places others than proper bike lanes
-and/or nicely maintained roads (ie, the ones not suffering from the hole
-disease).</p>
-
-<p>Even when using <a href="http://www.cptm.sp.gov.br/e_noticias/Campanhas/ciclovia_riopinheiros.asp">&ldquo;ciclofaixas&rdquo;</a>
-you&rsquo;re going to get some flat tires. Actually, the two times I went out riding
-I came back home with flat tires. That&rsquo;s a little bit disappointing.</p>
-
-<p>The first time I received this &ldquo;gift&rdquo; I looked up online for tips on how
-to avoid it and then got myself some <a href="http://www.biketown.com.br/produto/pecas-fita-aro-anti-furo/fita-anti-furo-para-bicicletas-speed-road-tectire-aro-700c-22mm-x-2-2mts-par-tectire-2377.mstp">prevention for flat tires</a>.
-Alas, I found out that it did not prevented another flat tire to
-happen.</p>
-
-<p>I then asked a friend which seems to know more than myself about bikes
-what I could do to prevent it from happening again (or at least minimize
-the possibilities) and got an advice about buying <a href="http://www.biketown.com.br/produto/pecas-camara-ar/camara-de-ar-vittoria-speed-road-ultralite-700-x-19-23c-valvula-presta-51mm-vittoria-1801.mstp">better tubes</a>.</p>
-
-<p>I know that there&rsquo;re much better tubes but I don&rsquo;t want to spend too
-much money on it, since I&rsquo;m not going to go pro on this bike thing.
-I just want to have a bike I can ride and not come home with flat tires
-everytime I go out riding.</p>
-
-<p>Let&rsquo;s see what happens next time I go out biking using these new tubes.
-If there&rsquo;re better advices about this tube/flat tire thing, I&rsquo;m listening.
-Comments are enabled :&ndash;)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[First Post]]></title>
-    <link href="http://andrelop.github.io/blog/2014/04/12/first-post/"/>
-    <updated>2014-04-12T10:10:06-03:00</updated>
-    <id>http://andrelop.github.io/blog/2014/04/12/first-post</id>
-    <content type="html"><![CDATA[<p>Hello,</p>
-
-<p>This is my very first blog post. Bear with me while I try my best not to
-screw everything up. It&rsquo;s all completey new to me :</p>
-
-<ul>
-<li>First time using Octopress</li>
-<li>First time using GitHub Pages</li>
-<li>First time using a git-enabled blogging engine</li>
-<li>First time starting a blog using english only (sort of, we&rsquo;ll see)</li>
-<li>First time blogging not from my local laptop, but from a VPS shell instead</li>
-</ul>
-
-
-<p>This is all to remind you that there surelly will be mistakes. Most likely
-lots of them. But it&rsquo;s OK, I&rsquo;ll try to minimize them with time.</p>
 ]]></content>
   </entry>
   

@@ -9,8 +9,8 @@
   <meta name="author" content="André Luís Lopes">
 
   
-  <meta name="description" content="It&rsquo;s been a while since I got myself a bike. At first, I thought buying the
-thing would be all I needed to motivate me to got out more often &hellip;">
+  <meta name="description" content="I&rsquo;m such an old person. So much that I was becoming sick of having
+to tinker with the operating system in order to do basic routine tasks. What &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -66,6 +66,127 @@ thing would be all I needed to motivate me to got out more often &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/17/setting-up-a-work-environment-under-windows/">Setting Up a Work Environment Under Windows</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-17T23:48:58-03:00" pubdate data-updated="true">Apr 17<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/04/17/setting-up-a-work-environment-under-windows/#disqus_thread"
+             data-disqus-identifier="http://andrelop.github.io/blog/2014/04/17/setting-up-a-work-environment-under-windows/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&rsquo;m such an old person. So much that I was becoming sick of having
+to tinker with the operating system in order to do basic routine tasks.</p>
+
+<p>What I needed was somehting which I could use for my work and home
+computing needs, without having to deal too much with the hassle of
+having to fix Bluetooth support, Flash video, dual-monitor setup,
+codec configuration and all those crap one needs to deal with
+when using Linux as a desktop operating system.</p>
+
+<p>For a while, I used OSX. I was being the happy owner of a gorgeous
+MacBook white (since 2007 until sometime last year). It was perfect for
+my needs because it had everything I needed for work environment (a
+working Unix-like operating system) plus a nicely and beautiful,
+crap-aware end end user environment.</p>
+
+<p>However, time went by fast and many software and operating system
+updates later I realised hardware was becoming a bottleneck. Everything
+became slow to use and painfulness turned out to be the standard.</p>
+
+<p>As I was quite satisfied by the Apple experience I tried to go
+shopping for a new machine from the same company. Sadly, money
+doesn&rsquo;t grow on trees and Apple hardware here in Brazil is insanely
+expensive.</p>
+
+<p>My option would be to buy a PC-style laptop from one of the various
+vendors and use Linux again. Guess what ? I did not wanted to suffer
+from crap-unawareness again so this wasn&rsquo;s a real option.</p>
+
+<p>What other option is out there ? Yes, Windows. I knew Windows had
+all the support for all the crapiliciousness out there, plus it
+could run games, something which would sometimes made me a little bit
+happier than the usual.</p>
+
+<p>Yes, OSX can run some games, but the hardware isn&rsquo;t the most indicated
+for this kind of task. Besides, for something a little bit closer
+to a minimally decent gaming experience under OSX one would need to
+sell body parts to pay for it (Apple hardware upgrades are really
+expensive and even paying for it with both of your eyes one would
+still not get a good gaming platform in the end).</p>
+
+<p>I went shopping for a replacement laptop and found one from Dell which
+would give me a really good platform for both work and home/fun.
+I&rsquo;ve been using it since sometime already, but I never was 100% happy
+when it came to the work part of the equation.</p>
+
+<p>For home usage it was perfect as I could play games and use all the
+crap one could imagine. For work, I kept using Virtualbox VMs. It
+worked, but then it wasn&rsquo;t great to keep those Windows Virtualbox
+windows open (Virtualbox admin Windows AND the VM-in-use-window)
+only to use a terminal emulator.</p>
+
+<p>PuTTy, the terminal emulator for Windows, wasn&rsquo;t that great for
+someone used to native Linux terminal emulators. Sometime ago a
+friend of mine gave a tip about MobaXTerm, which is a on-steroids
+terminal emulator with a Cygwin environment built-in (plus a lot
+of other goodies).</p>
+
+<p>It was centuries ahead of PuTTy when it comes to being productive
+for sysadmin work (Linux servers) from a Windows box. Still, not
+having a full Linux environment sometimes had its advantages.
+MobaXterm offers a lot of plugins in order to improve the Unix
+environment experience, but there&rsquo;s always things you need and
+for which there&rsquo;s no plugin available.</p>
+
+<p>What I did to solve my problem was to create a really minimal
+Virtualbox VM (Debian-based, obviously), with no X and nothing
+but the absolute mininum needed to do my work. This machine
+is reachable via SSH from the Windows host only and MobaXterm
+is configured to open a SSH connection to it using a previously
+saved session.</p>
+
+<p>Also, this minimal VM is started in headless mode so there&rsquo;s no
+need for any window floating around without being useful. It
+boots up automatically along Windows, without being noticed,
+and sits there waiting for my SSH connection.</p>
+
+<p>It&rsquo;s being used for work and for any use of a proper Linux
+environment whenever I feel the need for it. Actually, it&rsquo;s
+working so well that I&rsquo;ve migrated my main blog post writing
+platform to run under this VM (git and vim are the only tools
+needed).</p>
+
+<p>Works like a charm :&ndash;)</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -204,6 +325,10 @@ lots of them. But it&rsquo;s OK, I&rsquo;ll try to minimize them with time.</p>
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/17/setting-up-a-work-environment-under-windows/">Setting Up a Work Environment Under Windows</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/04/12/on-bike-tubes/">On Bike Tubes</a>

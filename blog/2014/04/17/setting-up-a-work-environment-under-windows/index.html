@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>First Post - andrelop's blog</title>
+  <title>Setting Up a Work Environment Under Windows - andrelop's blog</title>
   <meta name="author" content="André Luís Lopes">
 
   
-  <meta name="description" content="Hello, This is my very first blog post. Bear with me while I try my best not to
-screw everything up. It&rsquo;s all completey new to me : First time &hellip;">
+  <meta name="description" content="I&rsquo;m such an old person. So much that I was becoming sick of having
+to tinker with the operating system in order to do basic routine tasks. What &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@ screw everything up. It&rsquo;s all completey new to me : First time &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://andrelop.github.io/blog/2014/04/12/first-post">
+  <link rel="canonical" href="http://andrelop.github.io/blog/2014/04/17/setting-up-a-work-environment-under-windows">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="andrelop's blog" type="application/atom+xml">
@@ -69,7 +69,7 @@ screw everything up. It&rsquo;s all completey new to me : First time &hellip;">
   
   <header>
     
-      <h1 class="entry-title">First Post</h1>
+      <h1 class="entry-title">Setting Up a Work Environment Under Windows</h1>
     
     
       <p class="meta">
@@ -85,7 +85,7 @@ screw everything up. It&rsquo;s all completey new to me : First time &hellip;">
   
 
 
-<time datetime="2014-04-12T10:10:06-03:00" pubdate data-updated="true">Apr 12<span>th</span>, 2014</time>
+<time datetime="2014-04-17T23:48:58-03:00" pubdate data-updated="true">Apr 17<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://andrelop.github.io">Comments</a>
@@ -95,22 +95,89 @@ screw everything up. It&rsquo;s all completey new to me : First time &hellip;">
   </header>
 
 
-<div class="entry-content"><p>Hello,</p>
+<div class="entry-content"><p>I&rsquo;m such an old person. So much that I was becoming sick of having
+to tinker with the operating system in order to do basic routine tasks.</p>
 
-<p>This is my very first blog post. Bear with me while I try my best not to
-screw everything up. It&rsquo;s all completey new to me :</p>
+<p>What I needed was somehting which I could use for my work and home
+computing needs, without having to deal too much with the hassle of
+having to fix Bluetooth support, Flash video, dual-monitor setup,
+codec configuration and all those crap one needs to deal with
+when using Linux as a desktop operating system.</p>
 
-<ul>
-<li>First time using Octopress</li>
-<li>First time using GitHub Pages</li>
-<li>First time using a git-enabled blogging engine</li>
-<li>First time starting a blog using english only (sort of, we&rsquo;ll see)</li>
-<li>First time blogging not from my local laptop, but from a VPS shell instead</li>
-</ul>
+<p>For a while, I used OSX. I was being the happy owner of a gorgeous
+MacBook white (since 2007 until sometime last year). It was perfect for
+my needs because it had everything I needed for work environment (a
+working Unix-like operating system) plus a nicely and beautiful,
+crap-aware end end user environment.</p>
 
+<p>However, time went by fast and many software and operating system
+updates later I realised hardware was becoming a bottleneck. Everything
+became slow to use and painfulness turned out to be the standard.</p>
 
-<p>This is all to remind you that there surelly will be mistakes. Most likely
-lots of them. But it&rsquo;s OK, I&rsquo;ll try to minimize them with time.</p>
+<p>As I was quite satisfied by the Apple experience I tried to go
+shopping for a new machine from the same company. Sadly, money
+doesn&rsquo;t grow on trees and Apple hardware here in Brazil is insanely
+expensive.</p>
+
+<p>My option would be to buy a PC-style laptop from one of the various
+vendors and use Linux again. Guess what ? I did not wanted to suffer
+from crap-unawareness again so this wasn&rsquo;s a real option.</p>
+
+<p>What other option is out there ? Yes, Windows. I knew Windows had
+all the support for all the crapiliciousness out there, plus it
+could run games, something which would sometimes made me a little bit
+happier than the usual.</p>
+
+<p>Yes, OSX can run some games, but the hardware isn&rsquo;t the most indicated
+for this kind of task. Besides, for something a little bit closer
+to a minimally decent gaming experience under OSX one would need to
+sell body parts to pay for it (Apple hardware upgrades are really
+expensive and even paying for it with both of your eyes one would
+still not get a good gaming platform in the end).</p>
+
+<p>I went shopping for a replacement laptop and found one from Dell which
+would give me a really good platform for both work and home/fun.
+I&rsquo;ve been using it since sometime already, but I never was 100% happy
+when it came to the work part of the equation.</p>
+
+<p>For home usage it was perfect as I could play games and use all the
+crap one could imagine. For work, I kept using Virtualbox VMs. It
+worked, but then it wasn&rsquo;t great to keep those Windows Virtualbox
+windows open (Virtualbox admin Windows AND the VM-in-use-window)
+only to use a terminal emulator.</p>
+
+<p>PuTTy, the terminal emulator for Windows, wasn&rsquo;t that great for
+someone used to native Linux terminal emulators. Sometime ago a
+friend of mine gave a tip about MobaXTerm, which is a on-steroids
+terminal emulator with a Cygwin environment built-in (plus a lot
+of other goodies).</p>
+
+<p>It was centuries ahead of PuTTy when it comes to being productive
+for sysadmin work (Linux servers) from a Windows box. Still, not
+having a full Linux environment sometimes had its advantages.
+MobaXterm offers a lot of plugins in order to improve the Unix
+environment experience, but there&rsquo;s always things you need and
+for which there&rsquo;s no plugin available.</p>
+
+<p>What I did to solve my problem was to create a really minimal
+Virtualbox VM (Debian-based, obviously), with no X and nothing
+but the absolute mininum needed to do my work. This machine
+is reachable via SSH from the Windows host only and MobaXterm
+is configured to open a SSH connection to it using a previously
+saved session.</p>
+
+<p>Also, this minimal VM is started in headless mode so there&rsquo;s no
+need for any window floating around without being useful. It
+boots up automatically along Windows, without being noticed,
+and sits there waiting for my SSH connection.</p>
+
+<p>It&rsquo;s being used for work and for any use of a proper Linux
+environment whenever I feel the need for it. Actually, it&rsquo;s
+working so well that I&rsquo;ve migrated my main blog post writing
+platform to run under this VM (git and vim are the only tools
+needed).</p>
+
+<p>Works like a charm :&ndash;)</p>
 </div>
 
 
@@ -133,12 +200,12 @@ lots of them. But it&rsquo;s OK, I&rsquo;ll try to minimize them with time.</p>
   
 
 
-<time datetime="2014-04-12T10:10:06-03:00" pubdate data-updated="true">Apr 12<span>th</span>, 2014</time>
+<time datetime="2014-04-17T23:48:58-03:00" pubdate data-updated="true">Apr 17<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/first/'>first</a>
+    <a class='category' href='/blog/categories/blog/'>blog</a>, <a class='category' href='/blog/categories/mobaxterm/'>mobaxterm</a>, <a class='category' href='/blog/categories/virtualbox/'>virtualbox</a>
   
 </span>
 
@@ -147,7 +214,7 @@ lots of them. But it&rsquo;s OK, I&rsquo;ll try to minimize them with time.</p>
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://andrelop.github.io/blog/2014/04/12/first-post/" data-via="andrelop" data-counturl="http://andrelop.github.io/blog/2014/04/12/first-post/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://andrelop.github.io/blog/2014/04/17/setting-up-a-work-environment-under-windows/" data-via="andrelop" data-counturl="http://andrelop.github.io/blog/2014/04/17/setting-up-a-work-environment-under-windows/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -160,8 +227,8 @@ lots of them. But it&rsquo;s OK, I&rsquo;ll try to minimize them with time.</p>
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2014/04/12/on-bike-tubes/" title="Previous Post: On bike tubes">&laquo; On bike tubes</a>
       
-        <a class="basic-alignment right" href="/blog/2014/04/12/on-bike-tubes/" title="Next Post: On bike tubes">On bike tubes &raquo;</a>
       
     </p>
   </footer>
@@ -245,8 +312,8 @@ lots of them. But it&rsquo;s OK, I&rsquo;ll try to minimize them with time.</p>
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://andrelop.github.io/blog/2014/04/12/first-post/';
-        var disqus_url = 'http://andrelop.github.io/blog/2014/04/12/first-post/';
+        var disqus_identifier = 'http://andrelop.github.io/blog/2014/04/17/setting-up-a-work-environment-under-windows/';
+        var disqus_url = 'http://andrelop.github.io/blog/2014/04/17/setting-up-a-work-environment-under-windows/';
         var disqus_script = 'embed.js';
       
     (function () {
