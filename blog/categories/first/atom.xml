@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: First | My Octopress Blog]]></title>
+  <link href="http://andrelop.github.io/blog/categories/first/atom.xml" rel="self"/>
+  <link href="http://andrelop.github.io/"/>
+  <updated>2014-04-18T00:50:45-03:00</updated>
+  <id>http://andrelop.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[First Post]]></title>
+    <link href="http://andrelop.github.io/blog/2014/04/12/first-post/"/>
+    <updated>2014-04-12T10:10:06-03:00</updated>
+    <id>http://andrelop.github.io/blog/2014/04/12/first-post</id>
+    <content type="html"><![CDATA[<p>Hello,</p>
+
+<p>This is my very first blog post. Bear with me while I try my best not to
+screw everything up. It&rsquo;s all completey new to me :</p>
+
+<ul>
+<li>First time using Octopress</li>
+<li>First time using GitHub Pages</li>
+<li>First time using a git-enabled blogging engine</li>
+<li>First time starting a blog using english only (sort of, we&rsquo;ll see)</li>
+<li>First time blogging not from my local laptop, but from a VPS shell instead</li>
+</ul>
+
+
+<p>This is all to remind you that there surelly will be mistakes. Most likely
+lots of them. But it&rsquo;s OK, I&rsquo;ll try to minimize them with time.</p>
+]]></content>
+  </entry>
+  
+</feed>
